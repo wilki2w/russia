@@ -1,0 +1,42 @@
+{
+  "author": "MysticJump",
+  "colors": {
+    "background": "https://i.imgur.com/N82wzhY.png",
+    "chat": {
+      "admin": "#40E0D0",
+      "ambassador": "#0000CD",
+      "bouncer": "#FF8C00",
+      "cohost": "#FF0000",
+      "residentdj": "#00FFFF",
+      "host": "#FF0000",
+      "manager": "#00FF00",
+      "promoter": ""
+    },
+    "footer": "",
+    "header": ""
+  },
+  "css": {
+    "font": [],
+    "import": ["https://rawgit.com/wilki2w/cssp3/master/style.css"],
+    "rule": []
+  },
+  "images": {
+    "background": "https://i.imgur.com/N82wzhY.png",
+    "booth": "",
+    "icons": {
+      "admin": "",
+      "ambassador": "",
+      "bouncer": "",
+      "cohost": "",
+      "residentdj": "",
+      "host": "",
+      "manager": ""
+    },
+    "playback": ""
+  },
+  "rules": {
+    "allowAutojoin": "true",
+    "allowAutorespond": "true",
+    "allowAutowoot": "true"
+  }
+}
