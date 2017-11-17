@@ -1,0 +1,93 @@
+/* Góra */
+.app-header,
+#app-menu,
+#plugcubed,
+#history-button {
+    background: rgba(0, 0, 0, 0.50);
+}
+.header-panel-button.selected {
+    background-color: rgba(34, 34, 34, 0.5);
+}
+
+/* Dół */
+#footer {
+    background: rgba(0, 0, 0, 0.50);
+}
+#playlist-button {
+    background: linear-gradient(to bottom, rgba(172, 118, 255, 0.7) 0, rgba(146, 90, 255, 0.7) 100%);
+}
+
+/* obramowanie brzydkie to wyłączam */
+#playback .background {
+    display: none;
+}
+
+/* Tylko przeglądarki oparte o webkit */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+    background: #0C0E11;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #282c35; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #323742; 
+}
+
+/* czcionka w menu p3 bo imo jest za cienka deafaultowo */
+#p3-settings .container .item span {
+    font-weight: 400;
+}
+
+/*MysticJump*/
+.id-28366137>.badge-box>i.bdg, #chat-messages .fromID-28366137 .bdg {
+    background-image: url("http://i.imgur.com/NoWltA5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-28366137 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("http://i.imgur.com/NoWltA5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*Marihuana you tube*/
+.id-28209493>.badge-box>i.bdg, #chat-messages .fromID-28209493 .bdg {
+    background-image: url("http://i.imgur.com/MPZnrxq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-28209493 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("http://i.imgur.com/MPZnrxq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*Skipper PL*/
+.id-30356860>.badge-box>i.bdg, #chat-messages .fromID-30356860 .bdg {
+    background-image: url("https://media.discordapp.net/attachments/357921263987195915/358733375231492107/Moj_nowy_awatar_na_YT.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-30356860 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("https://media.discordapp.net/attachments/357921263987195915/358733375231492107/Moj_nowy_awatar_na_YT.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
